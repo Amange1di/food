@@ -1,0 +1,72 @@
+.HomeSeven{
+    padding: 100px 0;
+    background: rgba(249, 249, 247, 1);
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50px;
+    .general
+    {
+      display: flex;
+      align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  
+    h1{
+      font-size: 55px;
+    }
+    button{
+      background: #ad343e;
+      color: #fff;
+      border: none;
+     
+    }
+    }
+    .group{
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      margin: 50px 0;
+     
+  .big{
+   
+      background: rgba(255, 255, 255, 1);
+      padding-bottom: 40px;
+      margin-top: 40px;
+    h5{
+     margin: 30px 20px ;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  
+  
+    }
+    h2{
+     margin: 5px 20px; 
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+  width: 538px;
+  
+  
+  
+    }
+    p{
+      margin: 0 20px; 
+   margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 480px;
+  
+    }
+  }
+  
+  .min{
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  }
+  }
+
+  

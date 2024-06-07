@@ -1,0 +1,16 @@
+
+.blog{
+    .title{
+        font-family: "Playfair Display";
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+    .h2-title{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        
+    }
+}

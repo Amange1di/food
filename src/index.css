@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
+
+@import "./styles/header.css";
+@import "./styles/hero.css";
+@import "./styles/home-menu.css";
+@import "./styles/h-address.css";
+@import "./styles/footer.css";
+@import "./styles/menu-page.css";
+@import "./styles/book-a-table.css";
+@import "./styles/blog.css";
+@import "./styles/contact.css";
+@import "./styles//home-four.css";
+@import "./styles/home-five.css";
+@import "./styles/Otz.css";
+@import "./styles/home-seven.css";
+
+.body{
+    font-family: "DM Sans" sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1296px;
+    width: 100%;
+    margin: auto;
+}
+.btn{
+
+    /* width: 147px;
+    height: 48px; */
+    padding: 12px 24px;
+    outline: none;
+    border-radius: 118px;
+    border: 1.5px solid black;
+    background: #F9F9F7;
+    color: black;
+  
+
+}
+
+.title{
+    font-family: "Playfair Display" sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.desc{
+    font-family: "DM Sans" sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.h2-title{
+    font-family: "Playfair Display" sans-serif;
+    font-style: normal;
+    /* width: 557px;
+    height: 121px; */
+    font-size: 55px;
+    font-weight: 500;
+    color: #2c2f24;
+}
+
+.flex{
+    display: flex;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+
+}

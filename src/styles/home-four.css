@@ -1,0 +1,30 @@
+.HomeFour {
+    padding: 70px 0;
+  
+    h1 {
+      font-size: 55px;
+      font-weight: 500;
+    }
+    .group {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .block {
+        width: 300px;
+        height: 400px;
+        margin: 0 10px;
+        padding: 0 5px;
+        h4 {
+          margin-top: 10px;
+  
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+
+.menu-page{
+    & > div{
+        text-align: center;
+    }
+    .title{
+        font-style: normal;
+        font-weight: 400;
+        padding-top: 85px;
+        margin-bottom: 20px;
+        color: #2C2F24;
+
+    }
+    .h2-title{
+        font-size: 18px;
+        width: 557px;
+        margin: auto;
+        margin-bottom: 50px;
+       color: #495460;
+
+    }
+}

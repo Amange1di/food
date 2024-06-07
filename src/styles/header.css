@@ -1,0 +1,93 @@
+.header-top {
+    background: #474747;
+}
+.header-top>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 0;
+
+    &>div {
+        display: flex;
+        align-items: center;
+    }
+
+    .email-phone {
+        gap: 25px;
+    }
+
+    .icons {
+        gap: 4px;
+        cursor: pointer;
+
+        &>div {
+            width: 27px;
+            height: 27px;
+            border-radius: 50%;
+            background: #f9f9f71f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .icons div:hover{
+        transform: scale(1, 1.5);
+    }
+
+    * {
+        color: #fff;
+    }
+
+}
+.header-bottom{
+    background: #f9f9f7;
+}
+.header-bottom .container {
+    
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        p {
+            font-size: 42px;
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+
+    .menu {
+        display: flex;
+        gap: 8px;
+
+        a {
+            padding: 4px 16px;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    /* .h-btn {} */
+
+    .active {
+        /* width: 77px;
+        height: 32px; */
+        border-radius: 34px;
+        background: #DBDFD0;
+    }
+    .active:hover{
+        cursor: pointer;
+        background: #DBDFD0;
+
+
+    }
+
+
+}

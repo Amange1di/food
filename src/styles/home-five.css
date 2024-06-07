@@ -1,0 +1,62 @@
+.HomeFive {
+    padding: 100px 0;
+    background: rgba(249, 249, 247, 1);
+    width: 100%;
+    height: 100%;
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .img {
+        display: flex;
+        align-items: center;
+        .foto {
+          padding-top: 10px;
+          margin-left: 20px;
+          img {
+            margin-top: 50px;
+            margin-bottom: -30px;
+          }
+        }
+      }
+      .text {
+        margin-left: 100px;
+        h1 {
+          margin-top: 90px;
+          font-size: 55px;
+          font-weight: 500;
+        }
+        p {
+          margin-top: 15px;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .groupHome {
+          margin-top: 30px;
+          .block {
+            display: flex;
+            align-items: center;
+  
+            & > div {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              background: #ad343e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 10px;
+              * {
+                color: #fff;
+              }
+            }
+            p{margin-top: -5px;
+                font-size: 16px;
+                color: black;
+            }
+          }
+        }
+      }
+    }
+  }

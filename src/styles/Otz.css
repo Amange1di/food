@@ -1,0 +1,47 @@
+.HomeSix {
+    padding: 100px 0;
+    h1 {
+      font-size: 55px;
+      text-align: center;
+      font-weight: 600;
+      color: rgba(44, 47, 36, 1);
+    }
+    .group {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .block {
+            hr{
+                margin: 20px 0;
+            }
+            width: 416px;
+            border-radius: 12px;
+            background: rgba(249, 249, 247, 1);
+            padding: 30px;
+            margin: 12px; 
+            &>div{
+            display: flex;
+            align-items: center;
+            &>div{
+                margin-left: 20px;
+                h5{
+                    margin-top: 10px;
+                }
+            }
+        }
+        h4{
+            color:  #AD343E;
+font-weight: 700;
+margin-bottom: 15px;
+        }
+          }
+          p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        
+        }
+       
+      }
+  }
